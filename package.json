@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "WESEEK's ESLint config, extending Airbnb styles",
   "main": "index.js",
-  "scripts": {
-    "prepublish": "(in-install || eslint-find-rules --unused) && (not-in-publish || npm test) && safe-publish-latest"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/weseek/eslint-config-weseek"
@@ -32,13 +30,12 @@
     "eslint-config-airbnb-base": "^13.1.0"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
     "eslint": "^5.15.0",
-    "eslint-find-rules": "^3.3.1",
-    "eslint-plugin-import": "^2.16.0",
-    "in-publish": "^2.0.0",
-    "safe-publish-latest": "^1.1.2"
+    "eslint-plugin-import": "^2.16.0"
   },
   "peerDependencies": {
+    "babel-eslint": "^10.0.1",
     "eslint": "^5.15.0",
     "eslint-plugin-import": "^2.16.0"
   },
