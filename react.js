@@ -6,6 +6,7 @@ module.exports = {
   },
   extends: [
     'airbnb/rules/react',
+    require.resolve('./rules/base'),
   ],
   plugins: [
     'react',
