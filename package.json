@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-weseek",
-  "version": "1.0.0-RC4",
+  "version": "1.0.0",
   "description": "WESEEK's ESLint config, extending Airbnb styles",
   "main": "index.js",
   "scripts": {},
