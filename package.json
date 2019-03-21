@@ -1,0 +1,48 @@
+{
+  "name": "eslint-config-weseek",
+  "version": "1.0.0",
+  "description": "WESEEK's ESLint config, extending Airbnb styles",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "(in-install || eslint-find-rules --unused) && (not-in-publish || npm test) && safe-publish-latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weseek/eslint-config-weseek"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "airbnb",
+    "javascript",
+    "styleguide",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018"
+  ],
+  "author": "Yuki Takei <yuki@weseek.co.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weseek/eslint-config-weseek/issues"
+  },
+  "homepage": "https://github.com/airbnb/javascript",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^13.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.0",
+    "eslint-find-rules": "^3.3.1",
+    "eslint-plugin-import": "^2.16.0",
+    "in-publish": "^2.0.0",
+    "safe-publish-latest": "^1.1.2"
+  },
+  "peerDependencies": {
+    "eslint": "^5.15.0",
+    "eslint-plugin-import": "^2.16.0"
+  },
+  "engines": {
+    "node": ">= 4"
+  }
+}
