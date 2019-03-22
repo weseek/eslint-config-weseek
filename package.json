@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-weseek",
   "version": "1.0.1",
-  "description": "WESEEK's ESLint config, extending Airbnb styles",
+  "description": "Shareable configurations of ESLint by WESEEK, Inc. based on eslint-config-airbnb.",
   "main": "index.js",
   "scripts": {},
   "repository": {

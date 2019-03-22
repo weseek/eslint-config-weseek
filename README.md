@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/eslint-config-weseek.svg)](http://badge.fury.io/js/eslint-config-weseek)
 
-Shareable configurations of ESLint for WESEEK, Inc. based on [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb).
+Shareable configurations of ESLint by WESEEK, Inc. based on [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb).
 
 ## Usage
 
