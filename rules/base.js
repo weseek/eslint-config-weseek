@@ -1,6 +1,6 @@
 module.exports = {
   rules: {
-    'arrow-body-style': ['error', 'always'],
+    'arrow-body-style': 'off',
     'brace-style': [
       'error',
       'stroustrup',
