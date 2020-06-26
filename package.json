@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-weseek",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Shareable configurations of ESLint by WESEEK, Inc. based on eslint-config-airbnb.",
   "main": "index.js",
   "scripts": {},
@@ -25,8 +25,7 @@
   "dependencies": {
     "eslint-config-airbnb": "^17.1.0"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "peerDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^6.0.1",
