@@ -10,6 +10,7 @@ module.exports = {
   ],
   plugins: [
     'react',
+    "react-hooks",
   ],
   rules: {
     'react/destructuring-assignment': 'off',
@@ -21,5 +22,7 @@ module.exports = {
     'react/require-default-props': 'off',
     'react/self-closing-comp': 'off',
     'react/sort-comp': 'off',
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   },
 };
