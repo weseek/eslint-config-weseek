@@ -18,4 +18,7 @@ We export following ESLint configurations for your usage.
     * **Requirements** - `babel-eslint`, `eslint-plugin-import`
 * `weseek/react` - An additional rule sets which are based on [airbnb/rules/react](https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb/rules/react.js).
     * **Requirements** - `eslint-plugin-react`
-
+* `weseek/typescript` - An additional rule sets for TypeScript.
+    * **Requirements** - `@typescript-eslint/eslint-plugin`, `@typescript-eslint/parser`, `eslint-import-resolver-typescript`
+* `weseek/typescript-next` - An additional rule sets for Next.js. This includes both of `weseek/react` and `weseek/typescript`
+    * **Requirements** - `eslint-plugin-react`, `@typescript-eslint/eslint-plugin`, `@typescript-eslint/parser`, `eslint-import-resolver-typescript`
