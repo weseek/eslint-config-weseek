@@ -22,7 +22,13 @@ module.exports = {
     'react/require-default-props': 'off',
     'react/self-closing-comp': 'off',
     'react/sort-comp': 'off',
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/rules-of-hooks": 'error',
+    'react/jsx-filename-extension': [
+      'error',
+      {
+        extensions: ['.jsx', '.tsx'],
+      },
+    ],
+    'react-hooks/exhaustive-deps': 'warn',
   },
 };
