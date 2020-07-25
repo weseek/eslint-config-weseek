@@ -5,5 +5,16 @@ module.exports = {
   rules: {
     'import/no-extraneous-dependencies': 'off',
     'import/no-dynamic-require': 'off',
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        mjs: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
   },
 };
