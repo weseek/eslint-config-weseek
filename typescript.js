@@ -15,4 +15,15 @@ module.exports = {
   plugins: [
     '@typescript-eslint',
   ],
+  rules: {
+    // respect eslint-config-airbnb
+    // see: https://github.com/airbnb/javascript/blob/5b462a04cdfebba712a3df18926edfcb4103d2a9/packages/eslint-config-airbnb-base/rules/best-practices.js#L88-L94
+    '@typescript-eslint/no-empty-function': ['error', {
+      allow: [
+        'arrowFunctions',
+        'functions',
+        'methods',
+      ],
+    }],
+  }
 };
