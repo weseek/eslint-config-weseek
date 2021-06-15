@@ -14,15 +14,7 @@ module.exports = {
         jsx: 'never',
         ts: 'never',
         tsx: 'never',
-        vue: 'never',
       },
-    ],
-    'import/no-unresolved': [
-      'error',
-      'ignorePackages',
-      {
-        vue: 'never',
-      }
     ],
   },
 };
