@@ -28,6 +28,8 @@ module.exports = {
     },
   },
   rules: {
+    // disable the rule for all files
+    "@typescript-eslint/explicit-module-boundary-types": "off",
     // respect eslint-config-airbnb
     // see: https://github.com/airbnb/javascript/blob/5b462a04cdfebba712a3df18926edfcb4103d2a9/packages/eslint-config-airbnb-base/rules/best-practices.js#L88-L94
     '@typescript-eslint/no-empty-function': ['error', {
@@ -37,5 +39,14 @@ module.exports = {
         'methods',
       ],
     }],
-  }
+  },
+  "overrides": [
+    {
+      // enable the rule specifically for TypeScript files
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "@typescript-eslint/explicit-module-boundary-types": ["error"]
+      }
+    }
+  ],
 };
