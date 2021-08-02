@@ -19,8 +19,10 @@ module.exports = {
     },
   },
   rules: {
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': ['error'],
     // disable the rule for all files
-    "@typescript-eslint/explicit-module-boundary-types": "off",
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
     // respect eslint-config-airbnb
     // see: https://github.com/airbnb/javascript/blob/5b462a04cdfebba712a3df18926edfcb4103d2a9/packages/eslint-config-airbnb-base/rules/best-practices.js#L88-L94
     '@typescript-eslint/no-empty-function': ['error', {
