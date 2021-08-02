@@ -5,15 +5,6 @@ module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
   ],
-  overrides: [
-    // https://github.com/Shopify/eslint-plugin-shopify/issues/159#issuecomment-485813838
-    {
-      files: ['*.js'],
-      rules: {
-        '@typescript-eslint/no-var-requires': 'off',
-      },
-    },
-  ],
   plugins: [
     '@typescript-eslint',
   ],
@@ -40,13 +31,26 @@ module.exports = {
       ],
     }],
   },
-  "overrides": [
+  overrides: [
+    // https://github.com/Shopify/eslint-plugin-shopify/issues/159#issuecomment-485813838
+    {
+      files: ['*.js', '*.jsx'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+      },
+    },
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        'no-unused-vars': 'off',
+      },
+    },
     {
       // enable the rule specifically for TypeScript files
-      "files": ["*.ts", "*.tsx"],
-      "rules": {
-        "@typescript-eslint/explicit-module-boundary-types": ["error"]
-      }
-    }
+      files: ["*.ts", "*.tsx"],
+      rules: {
+        '@typescript-eslint/explicit-module-boundary-types': ['error']
+      },
+    },
   ],
 };
