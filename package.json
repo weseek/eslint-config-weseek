@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-weseek",
-  "version": "1.0.15",
+  "version": "1.1.0",
   "description": "Shareable configurations of ESLint by WESEEK, Inc. based on eslint-config-airbnb.",
   "main": "index.js",
   "scripts": {},
@@ -28,15 +28,15 @@
   },
   "devDependencies": {},
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.7.0",
-    "@typescript-eslint/parser": "^3.7.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
     "babel-eslint": "^10.0.1",
-    "eslint": "^6.0.1",
-    "eslint-import-resolver-typescript": "^2.0.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-react": "^7.20.3",
-    "eslint-plugin-react-hooks": "^4.0.8",
-    "eslint-plugin-vue": "^7.11.0"
+    "eslint": "^7.32.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-react": "^7.24.3",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-vue": "^7.15.0"
   },
   "engines": {
     "node": ">= 4"
