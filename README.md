@@ -16,11 +16,12 @@ We export following ESLint configurations for your usage.
 
 * `weseek` - Our default ESLint rules based on [airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base).
     * **Requirements**
-        * `babel-eslint`
+        * `@babel/core`
+        * `@babel/eslint-parser`
         * `eslint-plugin-import`
     * Usage:
         ```bash
-        yarn add -D eslint-config-weseek babel-eslint eslint-plugin-import
+        yarn add -D eslint-config-weseek @babel/core @babel/eslint-parser eslint-plugin-import
         ```
         ```
         extends: [
@@ -34,7 +35,7 @@ We export following ESLint configurations for your usage.
         * `eslint-plugin-react-hooks`
     * Usage:
         ```bash
-        yarn add -D eslint-config-weseek babel-eslint eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks
+        yarn add -D eslint-config-weseek @babel/core @babel/eslint-parser eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks
         ```
         ```
         extends: [
@@ -44,7 +45,7 @@ We export following ESLint configurations for your usage.
         ```
 * `weseek/typescript` - An additional rule sets for TypeScript.
     * **Requirements**:
-        * Requirements list of `weseek` endpoint except for `babel-eslint`
+        * Requirements list of `weseek` endpoint except for `@babel/core` and `@babel/eslint-parser`
         * `eslint-import-resolver-typescript`
         * `@typescript-eslint/eslint-plugin`
         * `@typescript-eslint/parser`
@@ -60,7 +61,7 @@ We export following ESLint configurations for your usage.
         ```
 * `weseek/typescript-next` - An additional rule sets for Next.js. This includes both of `weseek/react` and `weseek/typescript`
     * **Requirements**:
-        * Requirements lists of `weseek`, `weseek/react` and `weseek/typescript` endpoint except for `babel-eslint`
+        * Requirements lists of `weseek`, `weseek/react` and `weseek/typescript` endpoint except for `@babel/core` and `@babel/eslint-parser`
     * Usage:
         ```bash
         yarn add -D eslint-config-weseek eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks eslint-import-resolver-typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser
