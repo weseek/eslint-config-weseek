@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-weseek",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Shareable configurations of ESLint by WESEEK, Inc. based on eslint-config-airbnb.",
   "main": "index.js",
   "scripts": {},

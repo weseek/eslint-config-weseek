@@ -13,6 +13,7 @@ module.exports = {
     "react-hooks",
   ],
   rules: {
+    'react/react-in-jsx-scope': 'off',
     'react/destructuring-assignment': 'off',
     'react/forbid-prop-types': 'off',
     'react/no-unused-prop-types': 'off',
